@@ -1068,7 +1068,7 @@ support for no js
 	top: 0;
 	left: 0;
 	color:#4b4e53;
-	font-size: 35px;
+	font-size: 15px;
 }
 .fes1-box h3 {
 	color:#4b4e53;
@@ -3211,7 +3211,7 @@ select.input-border {
 }
 #main-menu .navbar .nav > li > a {
   font-size:22px;
-  color:#20458d;
+  color:#FFFFFF;
   z-index: 1;
   text-shadow: none;
   -webkit-transition: padding .4s ease 0s, border-color .6s ease 0s;
@@ -3222,7 +3222,7 @@ select.input-border {
   transform: translateZ(0);
 }
 .black-header #main-menu .navbar .nav > li > a, .header-black-white #main-menu .navbar .nav > li > a {
-  color: #20458d;
+  color: #FFFFFF;
 }
 
 /* Effect 3: bottom line slides/fades in */
@@ -3823,7 +3823,7 @@ header.affix  .logo-2, .header.affix.no-transparent .logo-2 {
 	transition: all .4s ease 0s;
 }
 .logo-img {
-  height: 82px;
+  height: 120px;
 }
 .logo-img.logo-color-change {
   -webkit-filter: brightness(0) invert(1);
@@ -3845,7 +3845,7 @@ header.affix .logo .logo-img {
 }
 .logo-2 {
 	display: block;
-	padding:33px 0 25px 0;
+	padding: 0;
 	-webkit-transition: all .4s ease 0s;
 	-o-transition: all .4s ease 0s;
 	transition: all .4s ease 0s;
