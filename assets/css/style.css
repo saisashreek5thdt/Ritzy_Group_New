@@ -3268,7 +3268,7 @@ select.input-border {
 	border-color:rgba(75,78,83,0); 
 }
 .affix.header-1.header-black-white #main-menu .navbar .nav > li.current > a, .affix.header-1.header-black-white #main-menu .navbar .nav > li > a {
-	color:#20458d; 
+	color:#000000; 
 }
 
 /***** #INDENT MAIN CONTAINER	( responsive in "media query" section)*****/

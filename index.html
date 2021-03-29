@@ -29,6 +29,13 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <!-- ANIMATE -->	
       <link rel="stylesheet" href="assets/css/animate.min.css">
+	  <style>
+		  .btn-default {
+				color: #333;
+				background-color: transparent !important;
+				border-color: transparent !important;
+			}
+	  </style> 
    </head>
    <body>
       <!-- LOADER -->	
@@ -67,13 +74,7 @@
                               <div class="navbar navbar-default" role="navigation">
                                  <!-- MAIN MENU LIST -->
                                  <nav class="collapse collapsing navbar-collapse right-1024">
-                                    <ul class="nav navbar-nav">
-									   <!-- MEGA MENU ITEM -->
-                                       <li class="parent">
-                                          <a href="#">
-                                             <div class="main-menu-title">About Us</div>
-                                          </a>
-                                       </li>	
+                                    <ul class="nav navbar-nav" id="popover">
                                        <!-- MENU ITEM -->
                                        <li class="parent">
                                           <a href="#">
@@ -87,6 +88,12 @@
                                              <div class="main-menu-title">Community</div>
                                           </a>
                                        </li>
+									   <!-- MEGA MENU ITEM -->
+                                       <li class="parent">
+                                          <a href="#">
+                                             <div class="main-menu-title">About Us</div>
+                                          </a>
+                                       </li>	
                                        <!-- MENU ITEM -->
                                        <li class="parent">
                                           <a href="#">
@@ -97,7 +104,7 @@
                                        <li class="parent">
                                           <a href="#">
                                              <div class="main-menu-title">
-												 <img src="assets/images/icons/global_presence_icon.ico" class="img-responsive" style="width: 42px; height: 42px;" alt="" />Global Presence
+												 <img src="assets/images/icons/global_presence_icon.ico" class="btn btn-default img-responsive" style="width: 65px; height: 65px;" alt="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Global Presence" data-original-title="" title="" />
 											 </div>
                                           </a>
                                        </li>
@@ -105,7 +112,7 @@
                                        <li class="parent">
                                           <a href="#">
                                              <div class="main-menu-title">
-												 <img src="assets/images/icons/contact_us_icon.ico" class="img-responsive" style="width: 42px; height: 42px;" alt="" />Contact Us
+												 <img src="assets/images/icons/contact_us_icon.ico" class="btn btn-default img-responsive" style="width: 65px; height: 65x;" alt=""  data-container="body" data-toggle="popover" data-placement="bottom" data-content="Contact Us" data-original-title="" title=""/>
 											 </div>
                                           </a>
                                        </li>
@@ -140,7 +147,7 @@
                            <!-- SLIDE -->
                            <li data-description="" data-easein="Power2.easeInOut" data-easeout="default" data-index="rs-898" data-masterspeed="1500" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-title="Slide" data-transition="fade">
                               <!-- MAIN IMAGE -->
-                              <img alt="img" class="rev-slidebg" data-bgparallax="12" data-bgposition="top center" data-duration="30000" data-ease="Linear.easeNone" data-no-retina="" src="assets/images/background/1. Home Page with animation.jpg">
+                              <img alt="img" class="rev-slidebg" data-bgparallax="12" data-bgposition="top center" data-duration="30000" data-ease="Linear.easeNone" data-no-retina="" src="assets/images/background/slider_1.jpg">
                               <!-- LAYERS -->
                               <!-- LAYER NR. 1 -->
                               <div class="tp-caption font-lato font-white tp-resizeme " id="slide-898-layer-1" style="z-index: 8; white-space: nowrap; letter-spacing:3px;"
@@ -481,59 +488,71 @@
                      </div>
                   </div>
                   <div class="row">
-					 <div class="col-xs-12 col-sm-4 col-md-4">
+					 <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="fes4-box wow fadeIn" data-wow-delay="200ms">
-                           <div class="fes4-title-cont" >
+                           <div class="fes4-title-cont">
                               <div class="fes4-box-icon">
-                                 <div class="icon icon-basic-settings"></div>
+                                 <img src="assets/images/icons/preschool_icon.ico" class="img-responsive" style="width: 65px; height: 65px;" alt="" />
                               </div>
                               <h3><span class="bold">Preschool</span></h3>
-                              <p></p>
-                           </div>
-                           <div class="mt-30">
-                              <a class="button medium thin hover-dark" href="https://ritzyschools.com/" target="_blank">Learn More</a>
+							  <br />
+                              <p>
+								  At RITZY SCHOOLS we understand that raising a child in today’s busy world is not an easy task.
+							  </p>
+							  <div class="mt-30">
+								  <a class="button medium thin hover-dark" href="https://ritzyschools.com/" target="_blank">Learn More</a>
+							  </div> 
                            </div>
                         </div>
                      </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
+                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="fes4-box wow fadeIn" data-wow-delay="400ms">
-                           <div class="fes4-title-cont" >
+                           <div class="fes4-title-cont">
                               <div class="fes4-box-icon">
-                                 <div class="icon icon-basic-share"></div>
+                                 <img src="assets/images/icons/csuite_icon.ico" class="img-responsive" style="width: 65px; height: 65px;" alt="" />
                               </div>
                               <h3><span class="bold">C-Suite</span></h3>
-                              <p></p>
-                           </div>
-                           <div class="mt-30">
-                              <a class="button medium thin hover-dark" href="#">Learn More</a>
+							  <br />
+                              <p>
+								  C-suite is a Centralised Educational Governance System that offers 21st century education solutions
+							  </p>
+							  <div class="mt-30">
+								  <a class="button medium thin hover-dark" href="#" target="_blank">Learn More</a>
+							  </div> 
                            </div>
                         </div>
                      </div> 
-                     <div class="col-xs-12 col-sm-4 col-md-4">
+                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="fes4-box wow fadeIn" data-wow-delay="600ms">
                            <div class="fes4-title-cont" >
                               <div class="fes4-box-icon">
-                                 <div class="icon icon-basic-target"></div>
+                                 <img src="assets/images/icons/animation_icon.ico" class="img-responsive" style="width: 65px; height: 65px;" alt="" />
                               </div>
                               <h3><span class="bold">Animation</span></h3>
-                              <p></p>
-                           </div>
-                           <div class="mt-30">
-                              <a class="button medium thin hover-dark" href="#">Learn More</a>
+							  <br /> 
+                              <p>
+								  We are a full-service animation studio that takes pride in delivering engaging stories crafted with outstanding visual artistry.
+							  </p>
+							  <div class="mt-30">
+								  <a class="button medium thin hover-dark" href="#" target="_blank">Learn More</a>
+							  </div> 
                            </div>
                         </div>
                      </div>
-                     <div class="col-xs-12 col-sm-4 col-md-4">
+                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="fes4-box wow fadeIn" data-wow-delay="800ms">
                            <div class="fes4-title-cont">
                               <div class="fes4-box-icon">
-                                 <div class="icon icon-basic-globe"></div>
+                                 <img src="assets/images/icons/technology_icon.ico" class="img-responsive" style="width: 65px; height: 65px;" alt="" />
                               </div>
                               <h3><span class="bold">Technology</span></h3>
-                              <p></p>
-                           </div>
-                           <div class="mt-30">
-                              <a class="button medium thin hover-dark" href="#">Learn More</a>
+							  <br /> 
+                              <p>
+								  Built on the concept of ‘Tap. Learn. Play,’ Ritzy Learning App uses the best of technology and pedagogy to engage, educate
+							  </p>
+							  <div class="mt-30">
+								  <a class="button medium thin hover-dark" href="#" target="_blank">Learn More</a>
+							  </div> 
                            </div>
                         </div>
                      </div>
@@ -837,7 +856,7 @@
                                     <h3><span class="bold">Ritzy Schools</span></h3>
                                     <p></p>
 									<div class="mt-30">
-									  <a class="button medium thin hover-light" href="https://ritzyschools.com/">Learn More</a>
+									  <a class="button medium thin hover-light" href="https://ritzyschools.com/" target="_blank">Learn More</a>
 								   </div> 
                                  </div>
                               </div>
